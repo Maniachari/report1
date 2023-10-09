@@ -1,0 +1,7 @@
+create table Tournamen(Tld INTEGER Constraint t_Id PRIMARY KEY, Tname varchar2(30) Constraint t-na NOT NUL
+L, StartDt DATE Constraint s_dt NOT NULL,EndDt DATE Constraint e_dt NOT NULL,Prize INTEGER Constraint p_ce NOT NULL); 
+
+
+
+
+create table Tournament(Tld INTEGER Constraint t_Id PRIMARY KEY, Tname varchar2(30)  Constraint t_k not null,StartDt DATE Constraint s_dt NOT NULL,EndDt DATE Constraint e_dt NOT NULL,Prize INTEGER Constraint p_ce NOT NULL);
